@@ -1,2 +1,2 @@
 # example-databases
-Example data for creating Emdros databases
+Example data and code for creating Emdros databases
