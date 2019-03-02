@@ -1,7 +1,6 @@
 SELECT ALL OBJECTS WHERE
 [NP
-       [Token mytype="NN"]
-       ..
-       NOTEXIST [Token mytype="JJ"]
-    ]
+    [Token mytype="NN"]
+    NOTEXIST [Token mytype="JJ"]
+]
 GO
