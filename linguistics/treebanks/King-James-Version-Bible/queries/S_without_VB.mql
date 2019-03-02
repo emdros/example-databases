@@ -1,0 +1,6 @@
+SELECT ALL OBJECTS
+WHERE
+[S
+   NOTEXIST [Token mytype='VB']
+]
+GO
