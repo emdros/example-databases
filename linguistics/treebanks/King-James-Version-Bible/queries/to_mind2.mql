@@ -1,0 +1,7 @@
+SELECT ALL OBJECTS
+WHERE
+[Token surface="to"]!
+[Token surface="mind"]
+GO
+
+

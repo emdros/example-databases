@@ -1,0 +1,7 @@
+SELECT ALL OBJECTS
+WHERE
+[Token FOCUS surface="to"]
+.. <= 2
+[Token FOCUS surface="mind"]
+GO
+
