@@ -1,0 +1,19 @@
+SELECT ALL OBJECTS
+WHERE
+[S
+   [VP
+      [Token surface="say"
+          OR surface="says"
+	  OR surface="said"
+	  OR surface="saying"
+	  OR surface="speak"
+	  OR surface="speaks"
+	  OR surface="spoke"
+	  OR surface="spake"
+	  OR surface="spoken"
+	  OR surface="speaking"
+	  GET surface
+      ]
+   ]
+]
+GO
