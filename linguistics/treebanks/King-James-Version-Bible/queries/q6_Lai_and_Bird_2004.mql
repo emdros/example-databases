@@ -1,0 +1,97 @@
+/* An approximation of Query Q6 in the paper:
+
+   Catherine Lai and Steven Bird, "Querying and Updating Treebanks: A
+      Critical Survey and Requirements Analysis", In: Proceedings of
+      the Australasian Language Technology Workshop, December 2004,
+      pp. 139--146, 2004.
+
+   The paper describes Q6 like this:
+
+   "Find a noun phrase which dominates a worddarkthat is dominated by
+   an intermediate phrase that bears an L-tone."
+
+   The query below approximates this, but the L-tone is missing in the
+   KJV data, and so can't be queried here.
+
+*/
+ 
+SELECT ALL OBJECTS
+WHERE
+[NP AS np1
+   [NP self <> np1.self
+      [Token surface='dark']
+   ]
+   OR
+   [ADJP
+      [Token surface='dark']
+   ]
+   OR
+   [ADVP
+      [Token surface='dark']
+   ]
+   OR
+   [CONJP
+      [Token surface='dark']
+   ]
+   OR
+   [FRAG
+      [Token surface='dark']
+   ]
+   OR
+   [INTJ
+      [Token surface='dark']
+   ]
+   OR
+   [NAC
+      [Token surface='dark']
+   ]
+   OR
+   [NX
+      [Token surface='dark']
+   ]
+   OR
+   [PP
+      [Token surface='dark']
+   ]
+   OR
+   [PRN
+      [Token surface='dark']
+   ]
+   OR
+   [PRT
+      [Token surface='dark']
+   ]
+   OR
+   [QP
+      [Token surface='dark']
+   ]
+   OR
+   [SINV
+      [Token surface='dark']
+   ]
+   OR
+   [VP
+      [Token surface='dark']
+   ]
+   OR
+   [WHADJP
+      [Token surface='dark']
+   ]
+   OR
+   [WHADVP
+      [Token surface='dark']
+   ]
+   OR
+   [WHNP
+      [Token surface='dark']
+   ]
+   OR
+   [WHPP
+      [Token surface='dark']
+   ]
+   OR
+   [X
+      [Token surface='dark']
+   ]
+]
+GO
