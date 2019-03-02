@@ -1,0 +1,14 @@
+SELECT ALL OBJECTS
+WHERE
+[S
+   [VP AS VP
+     [Token surface="liken" AND mytype="VB" AND parent=VP.self]
+     [NP parent=VP.self
+        [Token GET surface, mytype]
+     ]
+     [PP parent=VP.self
+        [Token mytype="WDT" AND surface="which"]
+     ]
+   ]
+]
+GO
