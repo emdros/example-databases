@@ -1,4 +1,6 @@
 SELECT ALL OBJECTS WHERE
-[NP]
-[VP]
+[S
+   [NP]
+   [VP]
+]
 GO
