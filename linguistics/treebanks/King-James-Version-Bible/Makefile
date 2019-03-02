@@ -4,7 +4,7 @@ mytargets_sqlite3 = KJV.sqlite3
 
 MYTARGETS = KJV_schema.mql KJV_data.mql $(mytargets_sqlite3)
 
-CLEANFILES = *~ $(MYTARGETS)
+CLEANFILES = *~ $(MYTARGETS) queries/*~
 
 EXTRA_DIST = parsed/*.txt \
              queries/*.mql \
