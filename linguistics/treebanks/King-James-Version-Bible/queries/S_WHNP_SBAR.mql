@@ -1,0 +1,13 @@
+SELECT ALL OBJECTS
+WHERE
+[S
+   [WHNP
+      [SBAR]
+   ]
+   OR
+   [
+     [WHNP]
+     [SBAR]
+   ]
+]
+GO
