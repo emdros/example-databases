@@ -4,10 +4,12 @@ WHERE
    [VP
       [Token surface="say"
           OR surface="says"
+          OR surface="sayeth"
 	  OR surface="said"
 	  OR surface="saying"
 	  OR surface="speak"
 	  OR surface="speaks"
+	  OR surface="speaketh"
 	  OR surface="spoke"
 	  OR surface="spake"
 	  OR surface="spoken"
