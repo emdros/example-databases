@@ -1,0 +1,6 @@
+SELECT ALL OBJECTS WHERE
+[NP
+   [Token last mytype="NN"]
+]
+GO
+

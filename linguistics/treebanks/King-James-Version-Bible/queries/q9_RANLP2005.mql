@@ -1,0 +1,13 @@
+SELECT ALL OBJECTS WHERE
+[NP AS p1 
+       [Token first mytype="DT"
+            AND parent = p1.self
+       ]
+       [Token mytype="JJ"
+            AND parent = p1.self
+       ]
+       [Token last mytype="NN"
+            AND parent = p1.self
+       ]
+]
+GO

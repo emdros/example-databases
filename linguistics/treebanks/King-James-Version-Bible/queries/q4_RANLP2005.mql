@@ -1,0 +1,6 @@
+SELECT ALL OBJECTS WHERE
+[VP
+   [Token mytype="VB"]!
+   [NP]!
+   [PP]
+]
