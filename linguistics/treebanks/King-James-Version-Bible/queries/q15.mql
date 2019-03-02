@@ -1,0 +1,15 @@
+SELECT ALL OBJECTS
+WHERE
+[S
+   [SBAR
+      [VP
+	 [Token first mytype ~ "^V"]
+         NOTEXIST [Token mytype="JJ"]
+	 ..
+         [NP AS NP1 
+             [PP parent = NP1.self]
+         ]
+      ]
+   ]
+]
+GO
