@@ -1,0 +1,7 @@
+SELECT ALL OBJECTS
+WHERE
+[token surface='Never' OR surface='never']!
+[VP
+   [token first surface='leave' and mytype='VB']
+]
+GO

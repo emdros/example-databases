@@ -1,0 +1,5 @@
+SELECT ALL OBJECTS
+WHERE
+[token surface='mind']
+
+

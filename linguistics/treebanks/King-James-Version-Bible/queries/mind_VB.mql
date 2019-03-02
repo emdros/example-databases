@@ -1,0 +1,4 @@
+SELECT ALL OBJECTS
+WHERE
+[Token surface='mind' AND mytype='VB']
+GO

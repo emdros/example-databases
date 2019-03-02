@@ -1,0 +1,14 @@
+SELECT ALL OBJECTS
+WHERE
+[S
+   [NP FIRST]
+   ..
+   [VP
+       [Token mytype='VB']
+       ..
+       [NP
+           [Token surface='mind']
+       ]
+   ]
+]
+GO

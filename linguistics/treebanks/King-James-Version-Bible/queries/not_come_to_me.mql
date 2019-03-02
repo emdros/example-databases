@@ -1,0 +1,10 @@
+SELECT ALL OBJECTS
+WHERE
+[S
+  [Token surface <> "come"]
+  [Token surface="to"]
+  [Token surface="me"]
+  ..
+  [Token last]
+]
+GO
