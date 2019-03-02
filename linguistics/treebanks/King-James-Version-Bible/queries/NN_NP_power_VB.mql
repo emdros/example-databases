@@ -1,0 +1,9 @@
+SELECT ALL OBJECTS
+WHERE
+[S
+   [Token FOCUS mytype="NN"]
+   [NP]*{0,1}
+   ..
+   [Token FOCUS mytype="VB"]
+]
+GO
