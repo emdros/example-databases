@@ -1,0 +1,9 @@
+SELECT ALL OBJECTS
+WHERE
+[NP
+    [UNORDEREDGROUP
+	[Token surface='time' OR surface='day' GET Surface]
+	[Token mytype='CD' GET surface]
+    ]
+]
+GO
